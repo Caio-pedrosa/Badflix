@@ -1,0 +1,89 @@
+body {
+    background-color: black;
+
+}
+ul {
+
+    /*retirando ponto da lista*/
+    list-style-type: none;
+    margin:0;
+    background-color:rgba(248, 248, 255, 0.85);
+    padding:0;
+     /*retirando objetos que passem dos limites da tela*/
+    overflow: hidden;
+}
+
+li{
+    float:left
+}
+/*links*/
+li a {
+    display:block;
+    color:rgb(215, 37, 6);
+    text-align:center;
+    padding:14px 16px;
+    border-right:1px solid;
+}
+
+li a:hover {
+    background-color:rgba(215, 37, 6, 0.641) ;
+}
+/*estilo ao logo*/
+li.logo {
+    float:left;
+    font-size:24px;
+    border-right: 1px solid #bbb;
+
+}
+/*centraliza a imagem verticalmente*/
+li.logo img {
+    width:  100px;
+    margin: auto;
+    display:block;
+}
+/*ajusta o estilo do link dentro do item do logo*/
+li.logo a{
+    padding:14px 16px;
+}
+
+.topo-pesquisa {
+    width: 45%;
+    display:flex;
+    justify-content: center;
+}
+.conteudo-pesquisa {
+    width: 90%;
+    background-color:ghostwhite;
+}
+fieldset {
+    border: none;
+}
+.barra-pesquisa {
+    width:90%;
+}
+.barra-pesquisa input[type="text"]{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 10px;
+    color:gray;
+    width:100%;
+    height:2vmax;
+    border:1px solid #fff;
+    text-align: left;
+}
+.btn-pesquisar conteudo {
+    width:5%;
+    background-color:ghostwhite;
+
+}
+.btn-pesquisar button {
+    color:gray;
+}
+button {
+    font-family:'Roboto', sans-serif;
+    font-size: 1vmax;
+    background: rgba(#ffffff,0);
+    color:gainsboro;
+    cursor:pointer;
+    outline:0;
+    border:none;
+}
